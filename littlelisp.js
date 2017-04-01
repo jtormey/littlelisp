@@ -133,6 +133,7 @@
 
   exports.littleLisp = {
     parse: parse,
-    interpret: interpret
+    interpret: interpret,
+    Context: Context
   };
 })(typeof exports === 'undefined' ? this : exports);
